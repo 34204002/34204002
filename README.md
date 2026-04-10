@@ -1,6 +1,6 @@
 <div align="center">
   <h2>👋 Hi, I'm jiang_I</h2>
-  <p>NCU大学计科27届在读 | Java后端开发学习者</p>
+  <p>NCU计科27届在读 | Java后端开发学习者</p>
 </div>
 
 ---
