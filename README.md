@@ -32,8 +32,8 @@
 这里放的，都是我一个人从头写到尾的项目，不为了展示什么，就是觉得过程本身值得记下来。
 
 <div align="center">
-  <!-- 只有咖啡和代码，没有人类 -->
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGFpMWc5eDd2eGp0dGdsODA3ZTdlcmNxZWV3cnc0M2l6eG1tNGhzdiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3o7abldj0b3rxrZUxW/giphy.gif" width="200" alt="coffee coding" />
+  <!-- 纯代码滚动，零人类出镜 -->
+  <img src="https://media.giphy.com/media/xT9DPldJHzZKtORo8g/giphy.gif" width="250" alt="code scrolling" />
   <br>
   <sub>咖啡因稳定供给中 ☕</sub>
 </div>
@@ -82,8 +82,8 @@
 ---
 
 <div align="center">
-  <!-- 这只狗顶多算拟人，不算人类吧 -->
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTRsYzBmbjZ0dzQ1Z3B3cGV6bjJxM2Npem1iMXNnZW9vajBxYmJvZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Ll22OhMLAlVDb8UQWe/giphy.gif" width="200" alt="this is fine" />
+  <!-- 服务器闪烁，纯机器美学 -->
+  <img src="https://media.giphy.com/media/3o6Zt6KHxJTbCC5q7m/giphy.gif" width="200" alt="server blink" />
   <br>
-  <sub>凌晨三点还在和 bug 讲道理 ✨</sub>
+  <sub>服务没挂，人也没挂 ✨</sub>
 </div>
