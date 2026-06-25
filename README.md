@@ -27,6 +27,8 @@
 
 这里放的都是我的个人项目和技术实践，会不定期更新。
 
+<div align="center"> <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHZxZzQwMmR0ejF4cWkwdmRzMmFpNHEyMjk0aHk0eDhlNW04eWdzdyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/JIX9t2j0ZTN9S/giphy.gif" width="200" /> <br> <sub>↑ 这个猫代表我修完 bug 之后的精神状态</sub> </div>
+
 ### 📬 找我可以戳这里
 邮箱：34204002@qq.com
 电话：18270519614
