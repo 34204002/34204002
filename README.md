@@ -1,6 +1,6 @@
 <div align="center">
   <!-- 把原本那个敲代码的人换成了猫猫打字，看着更轻松 -->
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2t6YmR2eDJ4b2g5eGZ3OWMyZ2d3b2h3Z3BpM3J0ejQ4NGRiYnp4dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/JIX9t2j0ZTN9S/giphy.gif" width="300" alt="cat coding" />
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2t6YmR2eDJ4b2g5eGZ3OWMyZ2d3b2h3Z3BpM3J0ejQ4NGRiYnp4dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/JIX9t2j0ZTN9S/giphy.gif" width="200" alt="cat coding" />
   
   <div>&nbsp;</div>
 
