@@ -1,6 +1,6 @@
 <div align="center">
-  <!-- 把原本那个敲代码的人换成了猫猫打字，看着更轻松 -->
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2t6YmR2eDJ4b2g5eGZ3OWMyZ2d3b2h3Z3BpM3J0ejQ4NGRiYnp4dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/JIX9t2j0ZTN9S/giphy.gif" width="200" alt="cat coding" />
+  <!-- 猫猫敲键盘，没有人类 -->
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2t6YmR2eDJ4b2g5eGZ3OWMyZ2d3b2h3Z3BpM3J0ejQ4NGRiYnp4dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/JIX9t2j0ZTN9S/giphy.gif" width="300" alt="cat coding" />
   
   <div>&nbsp;</div>
 
@@ -10,7 +10,7 @@
   
   <img src="https://komarev.com/ghpvc/?username=34204002&label=路过的人&color=orange&style=flat" alt="views" />
 
-  <!-- 贪吃蛇贡献图，需要先配置好 Action 才会动 -->
+  <!-- 贪吃蛇贡献图，配置 Action 后自动动 -->
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/34204002/34204002/output/github-contribution-grid-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/34204002/34204002/output/github-contribution-grid-snake.svg" />
@@ -32,7 +32,8 @@
 这里放的，都是我一个人从头写到尾的项目，不为了展示什么，就是觉得过程本身值得记下来。
 
 <div align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWhzeWg3b3lnemRmajFhZnRscG95NGl4a3A1dnA0YzFnOTZ6eDU2eCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l2Sq4ourJmL6r1x0c/giphy.gif" width="200" alt="coffee code" />
+  <!-- 只有咖啡和代码，没有人类 -->
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGFpMWc5eDd2eGp0dGdsODA3ZTdlcmNxZWV3cnc0M2l6eG1tNGhzdiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3o7abldj0b3rxrZUxW/giphy.gif" width="200" alt="coffee coding" />
   <br>
   <sub>咖啡因稳定供给中 ☕</sub>
 </div>
@@ -81,7 +82,8 @@
 ---
 
 <div align="center">
+  <!-- 这只狗顶多算拟人，不算人类吧 -->
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTRsYzBmbjZ0dzQ1Z3B3cGV6bjJxM2Npem1iMXNnZW9vajBxYmJvZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Ll22OhMLAlVDb8UQWe/giphy.gif" width="200" alt="this is fine" />
   <br>
-  <sub>Bug 修到凌晨三点时的真实写照 ✨</sub>
+  <sub>凌晨三点还在和 bug 讲道理 ✨</sub>
 </div>
