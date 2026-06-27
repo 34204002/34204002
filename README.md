@@ -6,8 +6,6 @@
 
   <div>&nbsp;</div>
   
-  <img src="https://komarev.com/ghpvc/?username=34204002&label=路过的人&color=orange" alt="views" />
-
   <!-- 贪吃蛇贡献图，配置 Action 后自动动 -->
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/34204002/34204002/output/github-contribution-grid-snake-dark.svg" />
