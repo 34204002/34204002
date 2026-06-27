@@ -23,11 +23,13 @@
 生活里大部分时间都给了代码，但我不讨厌这件事。
 我喜欢把乱糟糟的逻辑整理成干净的接口，也喜欢看一条数据从 Controller 一路跑到数据库，再变成 JSON 推回给前端的那种流畅。
 
-最近迷上了把大模型塞进传统服务里，看着一个写了三年的老项目突然开始“理解”用户的自然语言，有种偷偷给它按了个大脑的错觉。图数据库也挺有意思——关系在纸上画不出来的时候，Neo4j 几行 Cypher 就给你理得明明白白。
+最近迷上了把大模型塞进传统服务里，看着一个写了三年的老项目突然开始“理解”用户的自然语言，有种偷偷给它按了个大脑的错觉。图数据库也挺有意思——关系在纸上画不出来的时候，Neo4j 几行 Cypher 就理得明明白白。
 
 这里放的，都是我一个人从头写到尾的项目，不为了展示什么，就是觉得过程本身值得记下来。
+<div align="center">
   <!-- 猫猫敲键盘，没有人类 -->
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2t6YmR2eDJ4b2g5eGZ3OWMyZ2d3b2h3Z3BpM3J0ejQ4NGRiYnp4dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/JIX9t2j0ZTN9S/giphy.gif" width="150" alt="cat coding" />
+</div>
 
 <div align="center">
   <sub>咖啡因稳定供给中 ☕</sub>
