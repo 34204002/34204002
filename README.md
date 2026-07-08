@@ -48,7 +48,7 @@
 | :--- | :--- | :--- |
 | AI 外卖助手 | 外卖后台接入 RAG，用人话查订单、搜规则 | Spring Boot / Spring AI / 向量数据库 |
 | FoodiePulse 本地生活平台 | 从黑马点评出发，塞进了图推荐、AI 搜索和高并发秒杀，把课堂项目变成了一个真正的本地生活实验场 | Spring Boot / MyBatis-Plus / Redis / Neo4j / Spring AI |
-| 社区论坛 | 校园技术后花园，楼中楼、全文检索、积分体系全都有 | Spring Boot / MySQL / Elasticsearch |
+| 社区论坛 | 校园技术后花园，楼中楼、检索、积分体系全都有 | Spring Boot / MySQL  |
 | I-Agent | 个人 AI 助手，能流式聊天，还能记住上一句说了啥 | Spring AI 2.0 / DeepSeek / Qdrant |
 | LeetCode 记录 | 刷题存稿，一眼就能看出自己脑子有没有变灵活 | Java |
 
