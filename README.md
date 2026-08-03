@@ -1,82 +1,61 @@
-<div align="center">
-  
-  <div>&nbsp;</div>
+# Jiang_I
 
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&pause=1000&color=00BFFF&center=true&vCenter=true&width=450&lines=System.out.println(%22Hello%2C+world%22);while(true)+%7B+keep+building%3B+%7D" alt="Typing SVG" />
+南昌大学计算机专业，写 Java 后端。
 
-  <div>&nbsp;</div>
-  
-  <!-- 贪吃蛇贡献图，配置 Action 后自动动 -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/34204002/34204002/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/34204002/34204002/output/github-contribution-grid-snake.svg" />
-    <img alt="snake eating contributions" src="https://raw.githubusercontent.com/34204002/34204002/output/github-contribution-grid-snake.svg" />
-  </picture>
-</div>
+最近在折腾 Spring AI——把 RAG、Agent、工具调用接进传统的 Spring Boot 系统里，让老业务听懂人话。Neo4j 也玩了一阵，关系一多、纸上画不清的时候，几行 Cypher 反而讲得明白。
+
+仓库里的项目都是我一个人从需求、数据库设计一路写到前后端，全部能跑：有带完整前端和演示视频的 Agent，有 QPS 翻几倍的秒杀系统，也有跑在云服务器上的论坛。
+
+> 不想只写 CRUD，所以给自己项目里塞 AI、塞高并发、塞图数据库。
 
 ---
 
-# 👋 嗨，我是 Jiang_I
+## 项目
 
-> 写 Java，也写点让后端变得好玩的偏方。
+### I-Agent — 个人 AI 知识库助手
 
-生活里大部分时间都给了代码，但我不讨厌这件事。
-我喜欢把乱糟糟的逻辑整理成干净的接口，也喜欢看一条数据从 Controller 一路跑到数据库，再变成 JSON 推回给前端的那种流畅。
+从零写的一个完整 Agent 产品：后端 Spring Boot 4.1 + Spring AI 2.0 + DeepSeek，前端 Vue 3，整套设计系统自己搭。
 
-最近迷上了把大模型塞进传统服务里，看着一个写了三年的老项目突然开始“理解”用户的自然语言，有种偷偷给它按了个大脑的错觉。图数据库也挺有意思——关系在纸上画不出来的时候，Neo4j 几行 Cypher 就理得明明白白。
+- 自研 `@Tool` 注解框架：注册 19 个工具让模型自主调度（待办、提醒、查知识库、概念图谱……），线程上下文跨线程传递也是自己管的
+- SSE 流式输出，DeepSeek 的"思考"过程单独推送、前端打字机渲染，单轮首字响应 < 300ms
+- 检索走 RAG 向量 + Neo4j 知识图谱双通道："学 Redis 之前要先学什么"这种带前置关系的问题，纯向量检索答不了
+- 知识库、图谱按用户隔离，JWT 鉴权 + Bucket4j 限流，工程化做得很足
 
-这里放的，都是我一个人从头写到尾的项目，不为了展示什么，就是觉得过程本身值得记下来。
-<div align="center">
-  <!-- 猫猫敲键盘，没有人类 -->
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2t6YmR2eDJ4b2g5eGZ3OWMyZ2d3b2h3Z3BpM3J0ejQ4NGRiYnp4dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/JIX9t2j0ZTN9S/giphy.gif" width="150" alt="cat coding" />
-</div>
+[▶ 演示视频（B站）](https://www.bilibili.com/video/BV17F7W6GEnM/) · [源码](https://github.com/34204002/jiang_I-agent)
 
-<div align="center">
-  <sub>咖啡因稳定供给中 ☕</sub>
-</div>
+### 其他项目
 
----
-
-### 🧰 正在做的事
-
-- 用 Spring AI 给旧系统加 RAG，还有尝试开发属于自己的agent.
-- 刷 LeetCode 保持手感，顺便把解法存进这个仓库
-
-### 📦 项目柜子
-
-| 项目 | 一句话 | 用到的技术 |
+| 项目 | 做了什么 | 技术 |
 | :--- | :--- | :--- |
-| AI 外卖助手 | 外卖后台接入 RAG，用人话查订单、搜规则 | Spring Boot / Spring AI / 向量数据库 |
-| FoodiePulse 本地生活平台 | 从黑马点评出发，塞进了图推荐、AI 搜索和高并发秒杀，把课堂项目变成了一个真正的本地生活实验场 | Spring Boot / MyBatis-Plus / Redis / Neo4j / Spring AI |
-| 社区论坛 | 校园技术后花园，楼中楼、检索、积分体系全都有 | Spring Boot / MySQL  |
-| I-Agent | 个人 AI 助手，能流式聊天，还能记住上一句说了啥 | Spring AI 2.0 / DeepSeek / Qdrant |
-| LeetCode 记录 | 刷题存稿，一眼就能看出自己脑子有没有变灵活 | Java |
+| [SkyTakeOut](https://github.com/34204002/SkyTakeOut) | 外卖全流程平台 + 五块 AI 增强：订单备注自动解析（"不要辣、放门卫"→ 标签）、差评 RAG 起草回复、智能客服、营销文案生成、经营数据自然语言查询。Redis 多级缓存让接口 QPS 提升 340%，AI 超时 500ms 自动降级，不碰核心流程 | Spring Boot / Spring AI / Redis / WebSocket |
+| [FoodiePulse](https://github.com/34204002/hm-dianping) | 本地生活平台：Redisson 锁 + RabbitMQ 削峰做秒杀，1000+ 并发零超卖、秒杀 QPS 1500+；Redis 多级缓存把商户查询从 200 提到 1000 QPS；自然语言搜店（Function Calling）；Neo4j 好友推荐 | Spring Boot / Redis / Neo4j / RabbitMQ |
+| [BBS_Forum](https://github.com/34204002/BBS_Forum) | 南昌大学校园 BBS：Markdown 发帖、楼中楼评论、积分系统、后台管理。从需求、接口文档到部署上线全流程自己走完，在云服务器上正式跑过一版 | Spring Boot / MyBatis-Plus / MySQL |
+| [LeetCode_myself](https://github.com/34204002/LeetCode_myself) | 102 道 Java 题解，按二分、二叉树、动态规划等专题整理，每题带注释 | Java |
 
 ---
 
-### 📊 这些数字没什么用，但看着好玩
+## 技术栈
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=34204002&theme=tokyo-night&hide_border=true&area=true" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=34204002&theme=github-light&hide_border=true&area=true" />
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=34204002&theme=tokyo-night&hide_border=true&area=true" width="98%" />
-  </picture>
-
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=34204002&theme=tokyonight&utcOffset=8" width="32%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=34204002&layout=compact&hide_border=true&theme=tokyonight&langs_count=6&include_all_forks=true&hide=html,css,javascript" width="32%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=34204002&theme=tokyonight&hide_border=true" width="32%" />
-</div>
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=springboot&logoColor=white)
+![Spring AI](https://img.shields.io/badge/Spring%20AI-6DB33F?style=flat&logo=spring&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+![Neo4j](https://img.shields.io/badge/Neo4j-4581C3?style=flat&logo=neo4j&logoColor=white)
+![Qdrant](https://img.shields.io/badge/Qdrant-FC4E32?style=flat&logo=qdrant&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat&logo=rabbitmq&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vuedotjs&logoColor=white)
 
 ---
 
-### 📬 找我聊天
+## 最近在搞
 
-- 邮箱：34204002@qq.com
-- 聊技术、聊项目、聊今天又吃了哪个食堂都行
+- Spring AI：给旧系统加 RAG，写自己的 agent
+- 刷 LeetCode，题解都放[这个仓库](https://github.com/34204002/LeetCode_myself)里了
 
 ---
 
-<div align="center">
-  <sub>服务没挂，人也没挂 ✨</sub>
-</div>
+## 联系
+
+- 邮箱：[34204002@qq.com](mailto:34204002@qq.com)
+- GitHub：[34204002](https://github.com/34204002)
