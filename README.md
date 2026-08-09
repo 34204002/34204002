@@ -12,7 +12,7 @@
 
 ## 项目
 
-### I-Agent — 个人 AI 知识库助手
+### jiang_I-Agent — 个人 AI 知识库助手
 
 从零写的一个完整 Agent 产品：后端 Spring Boot 4.1 + Spring AI 2.0 + DeepSeek，前端 Vue 3，整套设计系统自己搭。
 
