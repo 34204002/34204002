@@ -30,7 +30,7 @@
 | [SkyTakeOut](https://github.com/34204002/SkyTakeOut) | 外卖全流程平台 + 五块 AI 增强：订单备注自动解析（"不要辣、放门卫"→ 标签）、差评 RAG 起草回复、智能客服、营销文案生成、经营数据自然语言查询。Redis 多级缓存让接口 QPS 提升 340%，AI 超时 500ms 自动降级，不碰核心流程 | Spring Boot / Spring AI / Redis / WebSocket |
 | [FoodiePulse](https://github.com/34204002/hm-dianping) | 本地生活平台：Redisson 锁 + RabbitMQ 削峰做秒杀，1000+ 并发零超卖、秒杀 QPS 1500+；Redis 多级缓存把商户查询从 200 提到 1000 QPS；自然语言搜店（Function Calling）；Neo4j 好友推荐 | Spring Boot / Redis / Neo4j / RabbitMQ |
 | [BBS_Forum](https://github.com/34204002/BBS_Forum) | 南昌大学校园 BBS：Markdown 发帖、楼中楼评论、积分系统、后台管理。从需求、接口文档到部署上线全流程自己走完，在云服务器上正式跑过一版 | Spring Boot / MyBatis-Plus / MySQL |
-| [LeetCode_myself](https://github.com/34204002/LeetCode_myself) | 102 道 Java 题解，按二分、二叉树、动态规划等专题整理，每题带注释 | Java |
+| [LeetCode_myself](https://github.com/34204002/LeetCode_myself) | 记录自己刷过的一些题目 | Java |
 
 ---
 
