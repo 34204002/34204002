@@ -27,7 +27,7 @@
 
 | 项目 | 做了什么 | 技术 |
 | :--- | :--- | :--- |
-| [SkyTakeOut](https://github.com/34204002/AI_Native_TakeOut) | 外卖全流程平台 + 五块 AI 增强：订单备注自动解析（"不要辣、放门卫"→ 标签）、差评 RAG 起草回复、智能客服、营销文案生成、经营数据自然语言查询。Redis 多级缓存优化接口性能，AI 超时 500ms 自动降级，不碰核心流程 | Spring Boot / Spring AI / Redis / WebSocket |
+| [AI_Native_TakeOut](https://github.com/34204002/AI_Native_TakeOut) | 外卖全流程平台 + 五块 AI 增强：订单备注自动解析（"不要辣、放门卫"→ 标签）、差评 RAG 起草回复、智能客服、营销文案生成、经营数据自然语言查询。Redis 多级缓存优化接口性能，AI 超时 500ms 自动降级，不碰核心流程 | Spring Boot / Spring AI / Redis / WebSocket |
 | [DianPing](https://github.com/34204002/DianPing) | 本地生活平台：Redis Lua 原子脚本做库存扣减 + 一人一单，RabbitMQ 异步下单削峰，Redisson 令牌桶限流（50 QPS，对齐消费者落库能力）。JMeter 实测：200 并发抢购恰好 100 单、零超卖、一人一单，重试洪峰 QPS ≈ 1800；商户查询 QPS ≈ 1000、p99 3ms；自然语言搜店（Spring AI Function Calling）；Neo4j 好友推荐 | Spring Boot / Redis / Neo4j / RabbitMQ |
 | [BBS_Forum](https://github.com/34204002/BBS_Forum) | 南昌大学校园 BBS：Markdown 发帖、楼中楼评论、积分系统、后台管理。从需求、接口文档到部署上线全流程自己走完，在云服务器上正式跑过一版 | Spring Boot / MyBatis-Plus / MySQL |
 | [LeetCode_myself](https://github.com/34204002/LeetCode_myself) | 记录自己刷过的一些题目 | Java |
